@@ -11,7 +11,7 @@ import SwiftUI
 struct tec3d_testApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MoviesView()
         }
     }
 }
