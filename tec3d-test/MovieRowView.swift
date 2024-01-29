@@ -15,10 +15,15 @@ struct MovieRowView: View {
         VStack(alignment: .leading) {
             Text(movie.title)
                 .font(.title)
-            Image(movie.poster_path!)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 200)
+            AsyncImage(url: URL(string: "https://image.tmdb.org/t/p/w500\(movie.poster_path ?? "")")) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200)
+            } placeholder: {
+                ProgressView()
+            }
+                
             Text(movie.overview)
         }
     }

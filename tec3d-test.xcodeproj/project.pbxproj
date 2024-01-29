@@ -10,6 +10,7 @@
 		3A8A391A2B68476E0049E685 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A39192B68476E0049E685 /* Movie.swift */; };
 		3A8A391C2B6849EB0049E685 /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A391B2B6849EB0049E685 /* MovieRowView.swift */; };
 		3A8A391E2B684AE60049E685 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A391D2B684AE60049E685 /* MovieDetailView.swift */; };
+		3A8A39202B684E5F0049E685 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A391F2B684E5F0049E685 /* MovieResponse.swift */; };
 		3A97A7292B68433600085CE3 /* tec3d_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97A7282B68433600085CE3 /* tec3d_testApp.swift */; };
 		3A97A72B2B68433600085CE3 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97A72A2B68433600085CE3 /* MoviesView.swift */; };
 		3A97A72D2B68433700085CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A97A72C2B68433700085CE3 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		3A8A39192B68476E0049E685 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3A8A391B2B6849EB0049E685 /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
 		3A8A391D2B684AE60049E685 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		3A8A391F2B684E5F0049E685 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		3A97A7252B68433600085CE3 /* tec3d-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tec3d-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A97A7282B68433600085CE3 /* tec3d_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tec3d_testApp.swift; sourceTree = "<group>"; };
 		3A97A72A2B68433600085CE3 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				3A97A72C2B68433700085CE3 /* Assets.xcassets */,
 				3A97A72E2B68433700085CE3 /* Preview Content */,
 				3A8A39192B68476E0049E685 /* Movie.swift */,
+				3A8A391F2B684E5F0049E685 /* MovieResponse.swift */,
 			);
 			path = "tec3d-test";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				3A8A391E2B684AE60049E685 /* MovieDetailView.swift in Sources */,
 				3A8A391C2B6849EB0049E685 /* MovieRowView.swift in Sources */,
 				3A97A72B2B68433600085CE3 /* MoviesView.swift in Sources */,
+				3A8A39202B684E5F0049E685 /* MovieResponse.swift in Sources */,
 				3A97A7292B68433600085CE3 /* tec3d_testApp.swift in Sources */,
 				3A8A391A2B68476E0049E685 /* Movie.swift in Sources */,
 			);

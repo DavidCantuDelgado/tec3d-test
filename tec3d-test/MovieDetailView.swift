@@ -17,11 +17,15 @@ struct MovieDetailView: View {
                 Text(movie.title)
                     .font(.title)
                     .fontWeight(.bold)
-                Image(movie.poster_path!)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: size.width-40)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                AsyncImage(url: URL(string: "https://image.tmdb.org/t/p/w500\(movie.poster_path ?? "")")) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: size.width-40)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                } placeholder: {
+                    ProgressView()
+                }
                 Text("Fecha: \(movie.release_date)")
                 Text("Popularidad: \(movie.vote_average, specifier: "%.2f") ")
                 Text(movie.overview)
