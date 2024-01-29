@@ -22,8 +22,6 @@ struct MoviesView: View {
                             MovieRowView(movie: movie)
                         }
                     }
-
-                    
                 }
                 .listStyle(.inset)
             }
