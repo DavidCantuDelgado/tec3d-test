@@ -12,9 +12,7 @@ struct MoviesView: View {
         NavigationStack {
             VStack {
                 List {
-                    Text("Movie 1")
-                    Text("Movie 2")
-                    Text("Movie 3")
+                    Text(Movie.sample.title)
                 }
                 .listStyle(.inset)
             }
