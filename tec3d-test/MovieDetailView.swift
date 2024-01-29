@@ -23,6 +23,27 @@ struct MovieDetailView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: size.width-40)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .overlay {
+                            VStack {
+                                Spacer()
+                                HStack {
+                                    Spacer()
+                                    
+                                    ShareLink(item
+                                              : image,
+                                              message: (Text(movie.overview)), preview: SharePreview(
+                                                movie.title,
+                                                image: image
+                                              )) {
+                                                  Image(systemName: "square.and.arrow.up.circle")
+                                                      .font(.title)
+                                                      .foregroundStyle(.red)
+                                                      .padding(.trailing, 10)
+                                                      .padding(.bottom, 10)
+                                              }
+                                }
+                            }
+                        }
                 } placeholder: {
                     ProgressView()
                 }
