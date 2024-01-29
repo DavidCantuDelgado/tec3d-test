@@ -12,7 +12,15 @@ struct MoviesView: View {
         NavigationStack {
             VStack {
                 List {
-                    Text(Movie.sample.title)
+                    VStack(alignment: .leading) {
+                        Text(Movie.sample.title)
+                            .font(.title)
+                        Image(Movie.sample.poster_path!)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 200)
+                        Text(Movie.sample.overview)
+                    }
                 }
                 .listStyle(.inset)
             }

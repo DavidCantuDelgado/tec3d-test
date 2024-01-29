@@ -22,7 +22,7 @@ extension Movie {
         title: "La sociedad de la nieve",
         overview: "El 13 de octubre de 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar a un equipo de rugby a Chile, se estrella en un glaciar en el corazón de los Andes.",
         release_date: "2023-12-13",
-        poster_path: "/zBW3eu851EBSw9GinzRfYXeNI9e.jpg",
+        poster_path: "zBW3eu851EBSw9GinzRfYXeNI9e",
         vote_average: 8.059
       )
 }
